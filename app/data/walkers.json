@@ -1,0 +1,50 @@
+[
+  {
+    "id": "w1",
+    "name": "Ava Morales",
+    "city": "Columbus, OH",
+    "rating": 4.9,
+    "bio": "Patient walker who loves high-energy dogs.",
+    "rate": 22
+  },
+  {
+    "id": "w2",
+    "name": "Marcus Lee",
+    "city": "Dublin, OH",
+    "rating": 4.8,
+    "bio": "Evening and weekend specialist.",
+    "rate": 20
+  },
+  {
+    "id": "w3",
+    "name": "Priya Patel",
+    "city": "Westerville, OH",
+    "rating": 4.95,
+    "bio": "Certified in pet first aid.",
+    "rate": 25
+  },
+  {
+    "id": "w4",
+    "name": "Noah Kim",
+    "city": "Hilliard, OH",
+    "rating": 4.7,
+    "bio": "Big-dog friendly; trail walks.",
+    "rate": 24
+  },
+  {
+    "id": "w5",
+    "name": "Jada Brown",
+    "city": "Gahanna, OH",
+    "rating": 4.85,
+    "bio": "Puppy socialization expert.",
+    "rate": 23
+  },
+  {
+    "id": "w6",
+    "name": "Ethan Ross",
+    "city": "Worthington, OH",
+    "rating": 4.9,
+    "bio": "Flexible mornings; rain or shine.",
+    "rate": 21
+  }
+]
