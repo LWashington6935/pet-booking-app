@@ -1,0 +1,5 @@
+node_modules/
+.next/
+storybook-static/
+.DS_Store
+.env*
