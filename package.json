@@ -20,7 +20,9 @@
     "build-storybook": "storybook build",
     "deploy": "vercel --prod",
     "deploy:storybook": "npm run build-storybook && vercel --prod storybook-static",
-    "build:ui": "npm --workspace @pet/ui run build"
+    "build:ui": "npm --workspace @pet/ui run build",
+    "export": "next build && next export",
+    "preview:static": "npm run export && npx --yes serve out"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
