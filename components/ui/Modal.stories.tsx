@@ -1,23 +1,32 @@
 'use client'
+
 import type { Meta, StoryObj } from '@storybook/react'
 import { useState } from 'react'
 import { Modal } from './Modal'
-import { Button } from './Button'
 
-const meta: Meta<typeof Modal> = { title: 'UI/Modal', component: Modal }
+const meta: Meta<typeof Modal> = {
+  title: 'UI/Modal',
+  component: Modal,
+}
 export default meta
+
 type Story = StoryObj<typeof Modal>
 
-export const Demo: Story = {
+export const Basic: Story = {
   render: () => {
     const [open, setOpen] = useState(true)
     return (
-      <div>
-        <Button onClick={() => setOpen(true)}>Open modal</Button>
+      <>
+        <button
+          style={{ padding: '8px 12px', border: '1px solid #ccc', borderRadius: 8 }}
+          onClick={() => setOpen(true)}
+        >
+          Open modal
+        </button>
         <Modal open={open} onClose={() => setOpen(false)} title="Hello">
-          Modal content goes here.
+          <p>Storybook modal content</p>
         </Modal>
-      </div>
+      </>
     )
-  }
+  },
 }
