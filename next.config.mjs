@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProjectPage = true;            // true if url is https://USER.github.io/REPO
-const repoName = 'pet-booking-app';    // <-- set to your repo name
+const isProjectPage = true;                 // USER.github.io/REPO
+const repoName = 'pet-booking-app';         // <-- exact repo name
 
 module.exports = {
-  output: 'export',                    // enables `next export`
-  images: { unoptimized: true },       // next/image works on static hosts
+  output: 'export',                         // enables `next export` (static)
+  images: { unoptimized: true },            // next/image on static hosts
   basePath: isProjectPage ? `/${repoName}` : '',
   assetPrefix: isProjectPage ? `/${repoName}/` : '',
-  trailingSlash: true                  // helps with static hosting
-}
+  trailingSlash: true                       // safer routing on static hosting
+};
