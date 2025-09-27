@@ -2,7 +2,6 @@ import './globals.css'
 import type { Metadata, Viewport } from 'next'
 import { ReactNode } from 'react'
 import Link from 'next/link'
-import { ToastContainer } from '../components/ui/Toast'
 import { ThemeProvider } from './ThemeProvider'
 import { ThemeToggle } from '../components/ui/ThemeToggle'
 
